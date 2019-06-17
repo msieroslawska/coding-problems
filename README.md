@@ -15,3 +15,6 @@
 - [HackerRank] Count specific objects
   - [Explanation](./HR-count-objects/README.md)
   - [Implementation](./HR-count-objects/index.es)
+- [HackerRank] Create a class
+  - [Explanation](./HR-classes/README.md)
+  - [Implementation](./HR-classes/index.es)
