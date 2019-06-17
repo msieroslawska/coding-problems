@@ -9,3 +9,6 @@
 - [HackerRank] Check if a number is positive
   - [Explanation](./HR-throw/README.md)
   - [Implementation](./HR-throw/index.es)
+- [HackerRank] Create a rectangle object
+  - [Explanation](./HR-create-a-rectangle/README.md)
+  - [Implementation](./HR-create-a-rectangle/index.es)
