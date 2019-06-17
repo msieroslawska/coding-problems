@@ -12,3 +12,6 @@
 - [HackerRank] Create a rectangle object
   - [Explanation](./HR-create-a-rectangle/README.md)
   - [Implementation](./HR-create-a-rectangle/index.es)
+- [HackerRank] Count specific objects
+  - [Explanation](./HR-count-objects/README.md)
+  - [Implementation](./HR-count-objects/index.es)
