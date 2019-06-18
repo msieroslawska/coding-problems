@@ -14,3 +14,22 @@ Create a `Polygon` class that has the following properties:
 Locked code in the editor tests the Polygon constructor and the perimeter method.
 
 From [JS 10 days challenge](https://www.hackerrank.com/challenges/js10-class/problem)
+
+## Implementation
+
+```javascript
+/*
+ * Implement a Polygon class with the following properties:
+ * 1. A constructor that takes an array of integer side lengths.
+ * 2. A 'perimeter' method that returns the sum of the Polygon's side lengths.
+ */
+class Polygon {
+  constructor(lengths) {
+    this.lengths = lengths;
+  }
+
+  perimeter() {
+    return this.lengths.reduce((acc, l) => acc + l);
+  }
+}
+```

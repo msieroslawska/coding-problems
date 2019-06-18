@@ -28,14 +28,14 @@ Return the value of the second largest number in the `nums` array.
 
 ## Sample Input 0
 
-```
+```javascript
 5
 2 3 6 6 5
 ```
 
 ## Sample Output 0
 
-```
+```javascript
 5
 ```
 
@@ -44,3 +44,24 @@ Return the value of the second largest number in the `nums` array.
 Given the array `nums = [2, 3, 6, 6, 5]`, we see that the largest value in the array is `6` and the second largest value is `5`. Thus, we return `5` as our answer.
 
 From [JS 10 days challenge](https://www.hackerrank.com/challenges/js10-arrays/problem)
+
+## Implementation
+
+```javascript
+/**
+*   Return the second largest number in the array.
+*   @param {Number[]} nums - An array of numbers.
+*   @return {Number} The second largest number in the array.
+* */
+function getSecondLargest(nums) {
+  const firstLargest = nums.reduce((acc, num) => Math.max(acc, num));
+  const secondLargest = nums.reduce((acc, num) => {
+    if (num < firstLargest && num > acc) {
+      return num;
+    }
+    return acc;
+  });
+  return secondLargest;
+}
+
+```

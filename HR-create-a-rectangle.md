@@ -14,3 +14,20 @@ Complete the function in the editor. It has two parameters: `a` and `b`. It must
 - `area`: This value is equal to `a` * `b`.
 
 From [JS 10 days challenge](https://www.hackerrank.com/challenges/js10-objects/problem)
+
+## Implementation
+
+```javascript
+/*
+ * Complete the Rectangle function
+ */
+function Rectangle(a, b) {
+  return {
+    length: a,
+    width: b,
+    perimeter: 2 * (a + b),
+    area: a * b,
+  };
+}
+
+```
