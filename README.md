@@ -10,3 +10,5 @@
 - [[HackerRank] Jumping on the clouds](./HR-jumping-on-the-clouds.md)
 - [[HackerRank] Repeated string](./HR-repeated-string.md)
 - [[HackerRank] Counting valleys](./HR-counting-valleys.md)
+- [[HackerRank] 2D array](./HR-2d-array.md)
+- [[HackerRank] Array rotation](./HR-array-rotation.md)
