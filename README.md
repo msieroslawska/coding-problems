@@ -12,3 +12,5 @@
 - [[HackerRank] Counting valleys](./HR-counting-valleys.md)
 - [[HackerRank] 2D array](./HR-2d-array.md)
 - [[HackerRank] Array rotation](./HR-array-rotation.md)
+- [[HackerRank] Minimum swaps 2](./HR-minimum-swaps-2.md)
+- [[HackerRank] Array manipulation](./HR-array-manipulation.md)
