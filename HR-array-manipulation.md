@@ -106,3 +106,31 @@ index-> 1 2 3  4  5 6 7 8 9 10
 ```
 
 The solution is as simple as traversing the final state one by one and saving the max value, in our case 10.
+
+```javascript
+function arrayManipulation(n, queries) {
+  function compare(a, b) {
+    if (a.idx === b.idx) {
+      return a.value - b.value;
+    }
+    return a.idx - b.idx;
+  }
+
+  const myArray = [];
+  let maxValue = 0;
+  let sum = 0;
+
+  queries.forEach(query => {
+    myArray.push({ idx: query[0] - 1, value: query[2] });
+    myArray.push({ idx: query[1], value: query[2] * (-1) });
+  });
+  myArray.sort(compare);
+
+  myArray.forEach(item => {
+    sum += item.value;
+    if (maxValue < sum) { maxValue = sum}
+  })
+
+  return maxValue;
+}
+```
