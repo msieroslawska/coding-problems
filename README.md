@@ -14,4 +14,5 @@
 - [[HackerRank] Array rotation](./HR-array-rotation.md)
 - [[HackerRank] Minimum swaps 2](./HR-minimum-swaps-2.md)
 - [[HackerRank] Array manipulation](./HR-array-manipulation.md)
-- [[HackerRank] Pairs](./HR-spair.md)
+- [[HackerRank] Pairs](./HR-pairs.md)
+- [[CodeKata] Karate chop](./CK-karate-chop.md)
