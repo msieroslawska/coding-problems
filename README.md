@@ -16,3 +16,4 @@
 - [[HackerRank] Array manipulation](./HR-array-manipulation.md)
 - [[HackerRank] Pairs](./HR-pairs.md)
 - [[CodeKata] Karate chop](./CK-karate-chop.md)
+- [[CodeKata] Data munging](./CK-data-munging.md)
