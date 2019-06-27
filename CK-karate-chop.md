@@ -58,4 +58,4 @@ From [Karate chop](http://codekata.com/kata/kata02-karate-chop/)
 
 ## Implementation 1
 
-See [code](./code/solutions/CK-karate-chop-v1.js) and [tests](./code/test/CK-karate-chop-common.js).
+See [code](./code/sources/CK-karate-chop-v1.js) and [tests](./code/test/CK-karate-chop-common.js).

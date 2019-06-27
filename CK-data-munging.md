@@ -26,4 +26,4 @@ From [Data munging](http://codekata.com/kata/kata04-data-munging/)
 
 Current problem: how do I export / return my `minimumInfo` from `readline`?
 
-See [code](./code/solutions/CK-data-munging-v1.js) and [tests](./code/test/common.js).
+See [code](./code/sources/CK-data-munging-v1.js) and [tests](./code/test/common.js).
